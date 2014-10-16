@@ -82,9 +82,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     }
 
     chef.run_list = [
-        "recipe[hello-cookbook::default]",
-	"recipe[mysql::server]",
-	"recipe[mysql::client]"
+        "recipe[hello-cookbook::default]"
     ]
   end
 end
