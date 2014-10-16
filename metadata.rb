@@ -6,3 +6,4 @@ description      'Installs/Configures hello-cookbook'
 long_description 'Installs/Configures hello-cookbook'
 version          '0.1.0'
 
+depends 'mysql'
